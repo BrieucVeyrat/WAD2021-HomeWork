@@ -141,13 +141,19 @@ small {
     color: rgb(116, 116, 116);
 }
 
-.article_pic {
+.label~img {
     max-width: 100%;
     height: auto;
     margin-top: 5px;
 }
 
 .blog_title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.label+p {
     font-weight: bold;
     font-size: 30px;
     margin-left: 15px;
